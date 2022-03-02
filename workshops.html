@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="workshop.css">
+    <title>Poetry Workshops</title>
+</head>
+
+<body>
+    <H1>Poetry Workshops</H1>
+    <p>We will be conducting a number of poetry workshops and syposiums throughout the year</p>
+    <p>Please note that the following events are free to members:</p>
+    <ul>
+
+        <li>
+            <div class="plus radius"></div> A Poetic Perspective</li>
+        <li>
+            <div class="plus radius"></div> Walt Whitman at War</li>
+        <li>
+            <div class="plus radius"></div> Found Poems and Outsider Poetry</li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th class="first_column"></th>
+                <th data-type="date" data-format string="Do MMMM YYYY">New York</th>
+                <th>Chicago</th>
+                <th>San Francisco</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first_column">A Poetic Perspective</td>
+                <td>Sat, 4 Feb 2012 11am-2pm</td>
+                <td>Sat, 3 Mar 2012 11am-2pm</td>
+                <td>Sat, 17 Mar 2012 11am-2pm</td>
+
+            </tr>
+            <tr>
+                <td class="first_column">Walt Whitman at War</td>
+                <td>Sat, 7 Feb 2012 11am-1pm</td>
+                <td>Sat, 5 Feb 2012 11am-1pm</td>
+                <td>Sat, 19 Feb 2012 11am-1pm</td>
+            </tr>
+            <tr>
+                <td class="first_column">Found Poems & Outsider Poetry</td>
+                <td>Sat, 7 Feb 2012 11am-1pm</td>
+                <td>Sat, 5 Feb 2012 11am-1pm</td>
+                <td>Sat, 19 Feb 2012 11am-1pm</td>
+            </tr>
+            <tr>
+                <td class="first_column">Natural Death: An Exploration</td>
+                <td>Sat, 4 Feb 2012 11am-4pm</td>
+                <td>Sat, 8 Feb 2012 11am-4pm</td>
+                <td>Sat, 15 Feb 2012 11am-4pm</td>
+            </tr>
+        </tbody>
+    </table>
+    <p></p>
+    <form action="">
+        <fieldset>
+            <legend><i>Register your interest</i></legend>
+            <label for="name">Your name:</label>
+            <input type="text" name="name"> <br>
+            <label for="email">Your email:</label>
+            <input type="text" name="email"><br>
+            <label for="center">Your closest center:</label>
+            <select name="center" id="center">
+                <option value="newYork">New York</option>
+                <option value="chicago">Chicago</option>
+                <option value="sanFrancisco">San Francisco</option>
+            </select><br>
+            <label for="member">Are you a member?</label>
+            <input type="radio" id="yes" name="member" value="true">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="member" value="false">
+            <label for="no">No</label>
+        </fieldset>
+        <input type="submit" value="Register" class="button">
+    </form>
+</body>
+
+</html>

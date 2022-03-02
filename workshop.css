@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(240, 245, 245);
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    display: inline-table;
+    width: 650px;
+    height: 200px;
+    border: 1px solid gray;
+    border-spacing: 0px;
+    font-size: 14px;
+}
+
+th {
+    display: table-cell;
+    border: 1px solid gray;
+    background-color: rgb(88, 111, 187);
+    color: white;
+    height: 20px;
+}
+
+td {
+    display: table-cell;
+    border: 1px solid gray;
+    width: 100px;
+    height: 40px;
+    text-align: left;
+}
+
+tbody {
+    background: rgb(228, 220, 220);
+}
+
+tbody tr:nth-child(even) {
+    background: rgb(196, 196, 196);
+}
+
+fieldset {
+    width: 350px;
+    height: 120px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+fieldset select {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    scrollbar-arrow-color: white;
+    scrollbar-face-color: blue;
+    scrollbar-color: blue;
+    scrollbar-base-color: blue;
+}
+
+fieldset input {
+    margin-bottom: 2px;
+    margin-left: 70px;
+}
+
+#yes,
+#no {
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: rgb(16, 151, 43);
+    color: white;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+
+.first_column {
+    width: 350px;
+}
+
+.plus {
+    --t: 2px;
+    /* Thickness */
+    --l: 8px;
+    /* size of the symbol */
+    --s: 2px;
+    /* space around the symbol */
+    --c1: #fff;
+    /* Plus color*/
+    --c2: rgb(16, 151, 43);
+    /* background color*/
+    display: inline-block;
+    width: var(--l);
+    height: var(--l);
+    padding: var(--s);
+    background: linear-gradient(var(--c1) 0 0) content-box, linear-gradient(var(--c1) 0 0) content-box, var(--c2);
+    background-position: center;
+    background-size: 100% var(--t), var(--t) 100%;
+    background-repeat: no-repeat;
+}
+
+.radius {
+    border-radius: 50%;
+    border: 1px solid black;
+}
